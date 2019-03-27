@@ -1,7 +1,8 @@
-import courgette.api.{CourgetteOptions, CourgetteRunLevel}
+package suites
+
 import courgette.api.junit.Courgette
+import courgette.api.{CourgetteOptions, CourgetteRunLevel}
 import cucumber.api.CucumberOptions
-import org.junit.experimental.categories.Category
 import org.junit.runner.RunWith
 
 @RunWith(classOf[Courgette])
